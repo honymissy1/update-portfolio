@@ -6,7 +6,7 @@ const Project = () =>{
         <div className="project" id="project">
             {/* <Nav /> */}
             <div className="project-img"></div>
-            <div className="project-content" style={{transform: 'translateY(-10%)'}}>
+            <div className="project-content">
               <div className="pro">
               <h1 style={{padding: '20px', color: 'black'}}>Take a look at my past projects</h1>
                  <div className="pro-card">

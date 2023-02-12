@@ -35,6 +35,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     border-radius: 0px 0px 5px 5px;
+    /* transform: translateY(-29%); */
+    margin-top: -100px;
 }
 
 .pro-card{
@@ -63,7 +65,7 @@
   border: none;
   margin-right: 5px;
   border-radius: 4px;
-  background-color: aquamarine;
+  background-color: rgb(174,115,97);
   color: black;
   box-shadow: .5px .4px 4px black;
   margin-top: 10px;
@@ -71,7 +73,7 @@
 
 @media screen and (max-width: 550px) {
     .pro{
-        width: 100vw;
+        width: 100%;
         justify-content: space-evenly;
         padding: 30px 0px
     }

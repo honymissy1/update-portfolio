@@ -16,7 +16,7 @@ const Home = () =>{
                 <p>I deliver everything that make a web application work from UI/UX designing to 
                     front end coding to server mechanics
                 </p>
-                <button>Explore <i class="fa-solid fa-person-arrow-down-to-line"></i></button>
+                <button>Explore</button>
             </div>
             <div className="hero-img">
                 <img src={HeroImage} alt="" />

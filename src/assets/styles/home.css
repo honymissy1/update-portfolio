@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     gap: 30px;
     width: 100%;
-    height: 400px;
+    height: auto;
     overflow: hidden;
     background-image: url('../images/background.png');
     background-position: left top;
@@ -24,7 +24,7 @@
 
 .hero-content{
     flex: 1;
-    /* min-width: 300px; */
+    width: 100%;
     /* border: 1px solid white; */
     height: auto;
     padding: 50px
@@ -82,5 +82,26 @@
     .hero-section{
         height: auto;
         flex-direction: column-reverse;
+    }
+
+    .hero-content{
+        flex: 1;
+        min-width: 300px;
+        /* border: 1px solid white; */
+        height: auto;
+        padding: 20px
+    }
+
+    .hero-content h1 {
+        font-style: bold;
+        font-weight: 900;
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .hero-content p{
+        font-weight: 400;
+        font-size: 20px;
+        width: 100%
     }
 }
