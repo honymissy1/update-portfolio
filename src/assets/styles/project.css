@@ -1,0 +1,82 @@
+.project {
+    height: auto;
+    background: rgba(0, 0, 0, 0.872)
+}
+
+.project-img{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    background-image: url('../images/project.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.project-img img{
+    width: 100%;
+}
+
+
+.active{
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.pro{
+    width: 80%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.pro-card{
+    width: 300px;
+    padding: 20px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: .5px .6px 5px black;
+    border-radius:  5px;
+    color: black;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.pro-card a{
+    color: green;
+}
+
+.btn-group{
+    padding: 10px 0px
+}
+
+.btn-group button{
+  padding: 5px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 4px;
+  background-color: aquamarine;
+  color: black;
+  box-shadow: .5px .4px 4px black;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .pro{
+        width: 100vw;
+        justify-content: space-evenly;
+        padding: 30px 0px
+    }
+
+    .project-content{
+        padding: 0
+    }
+}

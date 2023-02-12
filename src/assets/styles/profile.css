@@ -1,0 +1,30 @@
+.profile-sample{
+    width: 100%;
+    height: auto;
+    background-image: url('../images/background2.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.profile-container{
+  /* border: 1px solid; */
+  padding: 30px;
+  height: auto;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div .profile-img {
+    /* border: 1px solid; */
+    width: 70px
+}
+
+div .profile-img img {
+    width: 100%
+}

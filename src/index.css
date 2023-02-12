@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
+
+:root {
+  font-family: 'Ubuntu';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+ background-color: #4B52DB;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* .active{
+  color: white;
+  background-color: #E82298;
+  border-radius: 3px;
+} */
